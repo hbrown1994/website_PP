@@ -1,0 +1,76 @@
+@media (min-width: 500px) {
+  * {
+    box-sizing: border-box;
+    background: white;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+  }
+
+  .logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    margin-top: 10px;
+    height:auto;
+    border: 5px solid #000;
+  }
+
+  .recordLink {
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 50%;
+    margin-top: 1%;
+    height:auto;
+    scale: 50%;
+    }
+
+    h3 {
+      display: block;
+      font-size: 2vw;
+      text-align: center;
+      justify-content: center;
+      margin: 0 auto;
+      max-width: 50%;
+      margin-top: 5%;
+      height:auto;
+      scale: 10%;
+      border: 5px solid #000;
+    }
+
+    .backgroundImage {
+      background-image: url("../images/pp-12.png");
+      margin: 0 auto;
+      padding: 0;
+      border: 5px solid #000;
+    }
+}
+
+@media (max-width: 500px) {
+    * {
+      box-sizing: border-box;
+      background: white;
+      text-decoration: none;
+      color: black;
+      font-family: sans-serif;
+    }
+
+    .logo {
+      display: block;
+      justify-content: center;
+      margin: 0 auto;
+      max-width: 50%;
+      height:auto;
+    }
+
+    h3 {
+      display: block;
+      justify-content: center;
+      margin: 0 auto;
+      margin-top: 5%;
+      max-width: 50%;
+      height:auto;
+      scale: 50%;
+    }
+}
