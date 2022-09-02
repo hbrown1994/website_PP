@@ -42,6 +42,8 @@
     .backgroundImage {
       background-image: url("../images/PP-12.png");
       margin: 0 auto;
+      background-position: center;
+      background-repeat: repeat;
 
     }
 
