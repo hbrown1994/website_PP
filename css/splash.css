@@ -1,4 +1,4 @@
-@media (min-width: 500px) {
+
   * {
     box-sizing: border-box;
     background: white;
@@ -46,7 +46,7 @@
       border: 5px solid #000;
     }
 
-}
+/*
 
 @media (max-width: 500px) {
   * {
@@ -95,4 +95,4 @@
       scale: 5%;
       border: 5px solid #000;
     }
-}
+} */
