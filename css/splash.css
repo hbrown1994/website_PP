@@ -1,9 +1,7 @@
 
   * {
     box-sizing: border-box;
-    background: white;
     text-decoration: none;
-    color: black;
     font-family: sans-serif;
 
     background-image: url("../images/PP-12.png");
@@ -27,7 +25,6 @@
     max-width: 40vw;
     margin-top: 1%;
     height:auto;
-    scale: 30%;
     margin-bottom: 10px;
     border: 5px solid #000;
     }
@@ -35,14 +32,13 @@
     h3 {
       background: white;
       display: block;
-      font-size: 2vw;
+      font-size: 16pt;
       text-align: center;
       justify-content: center;
       margin: 0 auto;
       max-width: 40vw;
       margin-top: 70px;
       height:auto;
-      scale: 5%;
       border: 5px solid #000;
     }
 
