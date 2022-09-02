@@ -1,0 +1,102 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@-ms-viewport {
+  width: device-width ;
+}
+
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>😎</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+.backgroundImage {
+  background-image: url("../images/PP-12.png");
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: repeat;
+
+}
+
+.logo {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  border: 5px solid #000;
+  height: auto;
+  width: auto;
+  max-width: 550px;
+  max-height: 550px;
+}
+
+.text {
+  background: white;
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 5px;
+  height:auto;
+  border: 3px solid #000;
+
+  max-width: 300px;
+  max-height: 300px;
+}
+
+
+@media screen and (orientation:portrait) {
+  * {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>😎</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  }
+
+
+  .logo {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 5px solid #000;
+    height: auto;
+    width: auto;
+    max-width: 350px;
+    max-height: 350px;
+  }
+
+  .text {
+    background: white;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 5px;
+    height:auto;
+    border: 3px solid #000;
+
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+
+    .backgroundImage {
+      background-image: url("../images/PP-12.png");
+      margin: 0 auto;
+      background-position: center;
+      background-repeat: repeat;
+
+    }
+}
