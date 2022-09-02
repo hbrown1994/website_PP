@@ -91,8 +91,8 @@
     border: 5px solid #000;
     height: auto;
     width: auto;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 350px;
+    max-height: 350px;
   }
 
   .recordLink {
@@ -104,8 +104,8 @@
     transition: 0.5s;
     height: auto;
     width: auto;
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 300px;
+    max-height: 300px;
     }
 
     .recordLink:hover{
@@ -117,7 +117,7 @@
     h3 {
       background: white;
       display: block;
-      font-size: 10px;
+      font-size: 14px;
       text-align: center;
       justify-content: center;
       margin: 0 auto;
@@ -126,8 +126,8 @@
       height:auto;
       border: 3px solid #000;
 
-      max-width: 250px;
-      max-height: 250px;
+      max-width: 300px;
+      max-height: 300px;
     }
 
     .backgroundImage {
