@@ -162,7 +162,7 @@ a:active {
     max-width: 345px;
     max-height: 345px;
     color: rgb(241, 82, 220);
-    transform: rotate(-8deg)
+    transform: rotate(-8deg);
   }
 
   .mastering:hover {
@@ -189,7 +189,7 @@ a:active {
     transform: scale(1.05);
     transition: 0.5s;
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>🤑</text></svg>") 16 0,auto; /*!emojicursor.app*/
-    🤑
+
   }
 
   }
@@ -217,7 +217,6 @@ a:active {
     margin-top: 10px;
     max-width: 250px;
     max-height: 250px;
-    margin-left: 20px;
   }
 
   .grid-container {
@@ -341,6 +340,7 @@ a:active {
       max-width: 345px;
       max-height: 345px;
       color: rgb(241, 82, 220);
+      margin-bottom: 10px;
     }
 
     .mastering:hover {
@@ -361,5 +361,12 @@ a:active {
       width: 250px;
       height: 250px;
       justify-content: center;
+    }
+
+    .purchase:hover {
+      transform: scale(1.05);
+      transition: 0.5s;
+      cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>🤑</text></svg>") 16 0,auto; /*!emojicursor.app*/
+
     }
 }
