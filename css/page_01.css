@@ -1,0 +1,365 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@-ms-viewport {
+  width: device-width ;
+}
+
+
+
+@media (min-width: 900px) {
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  overflow: visible;
+
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>😎</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+.backgroundImage {
+  background-image: url("../images/pp-smile-1_small.png");
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: repeat;
+
+}
+
+.logo {
+  background: white;
+  margin: 0 auto;
+  margin-top: 10px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.grid-container {
+  justify-content: center;
+  display: grid;
+ grid-template-columns: auto;
+ gap: 5px;
+
+}
+
+div {
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  color: rgb(69, 191, 46);
+  font-weight: lighter;
+}
+
+a {
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>💋</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  text-decoration: none;
+   /* unvisited link */
+}
+/* unvisited link */
+a:link {
+  color: rgb(241, 210, 65);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(241, 210, 65);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(241, 210, 65);
+}
+
+/* selected link */
+a:active {
+  color: rgb(241, 210, 65);
+}
+
+  ol {
+    text-align: left;
+    justify-content: left;
+    font-weight: lighter;
+  }
+
+  .lou {
+    position: relative;
+    right: 200px;
+    justify-content: center;
+    background: black;
+    padding: 10px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    max-width: 325px;
+    max-height: 325px;
+  }
+
+  .maier {
+    position: relative;
+    left: 120px;
+    bottom: 239px;
+    background: black;
+    padding: 10px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    max-width: 345px;
+    max-height: 325px;
+
+  }
+
+  .flora {
+    position: relative;
+    right: 200px;
+    bottom: 200px;
+    padding: 10px;
+    background: black;
+    max-width: 325px;
+    max-height: 325px;
+  }
+
+  .op {
+    position: relative;
+    left: 120px;
+    bottom: 574px;
+    padding: 10px;
+    background: black;
+    max-width: 345px;
+    max-height: 345px;
+  }
+
+  .date {
+    position: relative;
+    right: 150px;
+    bottom: 1150px;
+    padding: 10px;
+    background: black;
+    max-width: 345px;
+    max-height: 345px;
+    color: rgb(246, 74, 14);
+    transform: rotate(-28deg);
+  }
+
+  .mastering {
+    position: relative;
+    left: 130px;
+    bottom: 537px;
+    padding: 10px;
+    background: black;
+    max-width: 305px;
+    max-height: 305px;
+    color: rgb(241, 210, 65);
+    transform: rotate(5deg)
+
+  }
+
+  .design {
+    position: relative;
+    left: 100px;
+    bottom: 655px;
+    padding: 10px;
+    background: black;
+    max-width: 345px;
+    max-height: 345px;
+    color: rgb(241, 82, 220);
+    transform: rotate(-8deg)
+  }
+
+  .mastering:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+
+  .design:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+
+  .purchase{
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: lighter;
+    max-width: 200px;
+    max-height: 200px;
+    justify-content: center;
+  }
+
+  .purchase:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>🤑</text></svg>") 16 0,auto; /*!emojicursor.app*/
+    🤑
+  }
+
+  }
+
+@media (max-width: 900px) {
+  * {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>😎</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  }
+
+  .backgroundImage {
+    background-image: url("../images/pp-smile-1_small.png");
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: repeat;
+
+  }
+
+  .logo {
+    background: white;
+    margin: 0 auto;
+    margin-top: 10px;
+    max-width: 250px;
+    max-height: 250px;
+    margin-left: 20px;
+  }
+
+  .grid-container {
+    justify-content: center;
+    display: grid;
+   grid-template-columns: auto;
+   gap: 10px;
+  }
+
+  div {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(69, 191, 46);
+    font-weight: lighter;
+  }
+
+  a {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>💋</text></svg>") 16 0,auto; /*!emojicursor.app*/
+    text-decoration: none;
+     /* unvisited link */
+  }
+  /* unvisited link */
+  a:link {
+    color: rgb(241, 210, 65);
+  }
+
+  /* visited link */
+  a:visited {
+    color: rgb(241, 210, 65);
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: rgb(241, 210, 65);
+  }
+
+  /* selected link */
+  a:active {
+    color: rgb(241, 210, 65);
+  }
+
+    ol {
+      text-align: left;
+      justify-content: left;
+      font-weight: lighter;
+    }
+
+    .lou {
+      justify-content: center;
+      background: black;
+      padding: 10px;
+      padding-right: 20px;
+      padding-top: 15px;
+      padding-bottom: 5px;
+      max-width: 325px;
+      max-height: 325px;
+    }
+
+    .maier {
+      /* position: relative;
+      left: 190px;
+      top: 20px; */
+      background: black;
+      padding: 10px;
+      padding-right: 25px;
+      padding-bottom: 5px;
+      max-width: 325px;
+      max-height: 325px;
+
+    }
+
+    .flora {
+      /* position: relative;
+      right: 190px;
+      bottom: 50px; */
+      padding: 10px;
+      background: black;
+      max-width: 325px;
+      max-height: 325px;
+    }
+
+    .op {
+      /* position: relative;
+      left: 200px;
+      bottom: 200px; */
+      padding: 10px;
+      background: black;
+      max-width: 345px;
+      max-height: 345px;
+    }
+
+    .date {
+      /* position: relative;
+      left: 50px;
+      bottom: 190px; */
+      padding: 10px;
+      background: black;
+      max-width: 345px;
+      max-height: 345px;
+      color: rgb(246, 74, 14);
+    }
+
+    .mastering {
+      /* position: relative;
+      left: 90px;
+      bottom: 190px; */
+      padding: 10px;
+      background: black;
+      max-width: 305px;
+      max-height: 305px;
+      color: rgb(241, 210, 65);
+    }
+
+    .design {
+      /* position: relative;
+      left: 10px;
+      bottom: 190px; */
+      padding: 10px;
+      background: black;
+      max-width: 345px;
+      max-height: 345px;
+      color: rgb(241, 82, 220);
+    }
+
+    .mastering:hover {
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+
+    .design:hover {
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+
+    .purchase{
+      font-size: 20px;
+      text-align: center;
+      margin: 0 auto;
+      font-weight: lighter;
+      width: 250px;
+      height: 250px;
+      justify-content: center;
+    }
+}
