@@ -95,16 +95,16 @@
     justify-content: center;
     padding: 20px;
     background: black;
-    max-width: 445px;
-    max-height: 200px;
+    max-width: 425px;
+    max-height: 225px;
   }
 
   .purchase2 {
     justify-content: center;
     padding: 20px;
     background: black;
-    max-width: 500px;
-    max-height: 110px;
+    max-width: 250px;
+    max-height: 160px;
   }
 
   .purchase3 {
@@ -112,7 +112,7 @@
     padding: 20px;
     background: black;
     max-width: 630px;
-    max-height: 140px;
+    max-height: 165px;
   }
 
   .additionalText{
@@ -120,13 +120,7 @@
     padding-top: 20px;
   }
 
-  .purchase > div {
-    justify-content: center;
-    margin-top: 20px;
-    padding: 10px;
-    background: black;
-    justify-content: center;
-  }
+
 
     .lou {
       justify-content: center;
@@ -203,4 +197,8 @@
       justify-content: center;
       cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>💋</text></svg>") 16 0,auto; /*!emojicursor.app*/
       text-decoration: none;
+    }
+
+    form:hover {
+      transform: scale(1.5);
     }
