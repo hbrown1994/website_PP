@@ -88,7 +88,7 @@
     padding: 20px;
     background: black;
     max-width: 345px;
-    max-height: 110px;
+    max-height: 150px;
   }
 
   .purchase1 {
@@ -96,29 +96,44 @@
     padding: 20px;
     background: black;
     max-width: 425px;
-    max-height: 225px;
+    max-height: 270px;
   }
 
   .purchase2 {
     justify-content: center;
     padding: 20px;
     background: black;
-    max-width: 250px;
-    max-height: 160px;
+    max-width: 350px;
+    max-height: 180px;
   }
 
   .purchase3 {
+    text-align: center;
     justify-content: center;
     padding: 20px;
     background: black;
     max-width: 630px;
-    max-height: 165px;
+    max-height: 200px;
   }
 
   .additionalText{
+    text-align: center;
     justify-content: center;
     padding-top: 20px;
   }
+
+  .additionalTextLeft{
+    text-align: left;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .additionalTextLeft0{
+    text-align: left;
+    justify-content: center;
+    padding-top: 0px;
+  }
+
 
 
 
