@@ -16,7 +16,7 @@
   }
 
   .backgroundImage {
-    background-image: url("../images/pp-smile-1_small.png");
+    background-image: url("../images/PP-1_small.png");
     margin: 0 auto;
     background-position: center;
     background-repeat: repeat;
@@ -34,9 +34,10 @@
 
   .grid-container {
     justify-content: center;
+    margin-top: 20px;
     display: grid;
-   grid-template-columns: auto;
-   gap: 10px;
+    grid-template-columns: auto;
+    gap: 10px;
   }
 
   div {
@@ -45,6 +46,10 @@
     margin: 0 auto;
     color: rgb(69, 191, 46);
     font-weight: lighter;
+  }
+
+  audio {
+    margin: 10px;
   }
 
   a {
@@ -72,60 +77,88 @@
     color: rgb(241, 210, 65);
   }
 
-    ol {
-      text-align: left;
-      justify-content: left;
-      font-weight: lighter;
-    }
+  form {
+    padding: 10px;
+    padding-top: 20px;
+  }
+
+  .purchase0 {
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: black;
+    max-width: 345px;
+    max-height: 110px;
+  }
+
+  .purchase1 {
+    justify-content: center;
+    padding: 20px;
+    background: black;
+    max-width: 445px;
+    max-height: 200px;
+  }
+
+  .purchase2 {
+    justify-content: center;
+    padding: 20px;
+    background: black;
+    max-width: 500px;
+    max-height: 110px;
+  }
+
+  .purchase3 {
+    justify-content: center;
+    padding: 20px;
+    background: black;
+    max-width: 630px;
+    max-height: 140px;
+  }
+
+  .additionalText{
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .purchase > div {
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: black;
+    justify-content: center;
+  }
 
     .lou {
       justify-content: center;
-      background: black;
       padding: 10px;
-      padding-right: 20px;
-      padding-top: 15px;
-      padding-bottom: 5px;
-      max-width: 325px;
+      background: black;
+      max-width: 345px;
       max-height: 325px;
     }
 
     .maier {
-      /* position: relative;
-      left: 190px;
-      top: 20px; */
-      background: black;
       padding: 10px;
-      padding-right: 25px;
-      padding-bottom: 5px;
+      background: black;
       max-width: 345px;
       max-height: 325px;
 
     }
 
     .flora {
-      /* position: relative;
-      right: 190px;
-      bottom: 50px; */
       padding: 10px;
       background: black;
-      max-width: 325px;
+      max-width: 345px;
       max-height: 325px;
     }
 
     .op {
-      /* position: relative;
-      left: 200px;
-      bottom: 200px; */
       padding: 10px;
       background: black;
       max-width: 345px;
-      max-height: 345px;
+      max-height: 325px;
     }
 
     .date {
-      /* position: relative;
-      left: 50px;
-      bottom: 190px; */
       padding: 10px;
       background: black;
       max-width: 345px;
@@ -134,9 +167,6 @@
     }
 
     .mastering {
-      /* position: relative;
-      left: 90px;
-      bottom: 190px; */
       padding: 10px;
       background: black;
       max-width: 305px;
@@ -145,9 +175,6 @@
     }
 
     .design {
-      /* position: relative;
-      left: 10px;
-      bottom: 190px; */
       padding: 10px;
       background: black;
       max-width: 345px;
@@ -176,9 +203,4 @@
       justify-content: center;
       cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>💋</text></svg>") 16 0,auto; /*!emojicursor.app*/
       text-decoration: none;
-    }
-
-    .purchase:hover {
-      transform: scale(1.05);
-      transition: 0.5s;
     }
