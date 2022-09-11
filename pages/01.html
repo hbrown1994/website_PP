@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="../css/page_01.css">
     <link rel="icon" type="image/x-icon" href="../images/PP-favicon.png">
     <title>PP:01</title>
+    <script type="text/javascript">
+      $(window).bind("pageshow", function(event) {
+        if (event.originalEvent.persisted) {
+          window.location.reload();
+        }
+      });
+
+
+    </script>
   </head>
 
   <body class="backgroundImage">
