@@ -8,9 +8,13 @@
     <link rel="icon" type="image/x-icon" href="../images/PP-favicon.png">
     <title>PP:01</title>
     <script type="text/javascript">
-      $(window).bind("pageshow", function(event) {
-        if (event.originalEvent.persisted) {
-          window.location.reload();
+    window.addEventListener( "pageshow", function ( event ) {
+      var historyTraversal = event.persisted ||
+                       ( typeof window.performance != "undefined" &&
+                            window.performance.navigation.type === 2 );
+                            if ( historyTraversal ) {
+  // Handle page restore.
+      window.location.reload();
         }
       });
 
