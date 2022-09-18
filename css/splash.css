@@ -15,6 +15,13 @@
   cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>😎</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
+a {
+  display: block;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
 h3 {
   background: white;
   display: block;
@@ -56,6 +63,8 @@ h3 {
   transform: none;
   }
 
+
+
 @media (hover: hover) {
   .recordLink:hover{
     transform: scale(1.05);
@@ -95,6 +104,13 @@ h3 {
     max-height: 300px;
   }
 
+  a {
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+  }
+
   .logo {
     background: white;
     display: block;
@@ -121,7 +137,7 @@ h3 {
     }
 
     .recordLink:hover{
-      transform: scale(1.2);
+      transform: scale(1.05);
       transition: 0.5s;
       cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>🥳</text></svg>") 16 0,auto; /*!emojicursor.app*/
     }
