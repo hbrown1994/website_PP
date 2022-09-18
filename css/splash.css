@@ -67,7 +67,7 @@ h3 {
 
 @media (hover: hover) {
   .recordLink:hover{
-    transform: scale(1.05);
+    transform: scale(1.025);
     transition: 0.5s;
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>🥳</text></svg>") 16 0,auto; /*!emojicursor.app*/
     }
