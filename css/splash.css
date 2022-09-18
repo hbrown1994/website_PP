@@ -109,6 +109,7 @@ h3 {
     width: 400px;
     height: 400px;
     margin: 0 auto;
+    transform: none;
   }
 
   .logo {
@@ -134,6 +135,7 @@ h3 {
     width: auto;
     max-width: 300px;
     max-height: 300px;
+    transform: none;
     }
 
     .recordLink:hover{
