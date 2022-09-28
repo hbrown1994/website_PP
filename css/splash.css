@@ -133,7 +133,7 @@ div {
 
     .instagramLink:hover{
       cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>🤐</text></svg>") 16 0,auto; /*!emojicursor.app*/
-      }
+    }
 }
 
 
@@ -171,8 +171,7 @@ div {
 
   .recordLinkA {
     display: block;
-    width: 400px;
-    height: 400px;
+    justify-content: center;
     margin: 0 auto;
     transform: none;
   }
@@ -203,15 +202,8 @@ div {
     transform: none;
     }
 
-
     .recordLink:hover{
       cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>🥳</text></svg>") 16 0,auto; /*!emojicursor.app*/
     }
 
-    .backgroundImage {
-      background-image: url("../images/PP-12.png");
-      margin: 0 auto;
-      background-position: center;
-      background-repeat: repeat;
-    }
 }
