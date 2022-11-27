@@ -1,0 +1,47 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@-ms-viewport {
+  width: device-width ;
+}
+
+  * {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:26px;'><text y='50%'>😎</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  }
+
+  .backgroundImage {
+    background-image: url("../images/1-1.png");
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: repeat;
+
+  }
+  .grid-container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  div {
+    font-size: 50px;
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(69, 191, 46);
+    font-weight: lighter;
+  }
+
+  .date {
+    margin-top: 40vh;
+    justify-content: center;
+    padding: 10px;
+    background: black;
+    max-width: 945px;
+    max-height: 345px;
+    color: rgb(246, 74, 14);
+  }
