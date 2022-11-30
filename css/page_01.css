@@ -59,22 +59,22 @@
   }
 
   a:link {
-    color: rgb(241, 210, 65);
+    color: rgb(255, 255, 255);
   }
 
   /* visited link */
   a:visited {
-    color: rgb(241, 210, 65);
+    color: rgb(255, 255, 255);
   }
 
   /* mouse over link */
   a:hover {
-    color: rgb(241, 210, 65);
+    color: rgb(255, 255, 255);
   }
 
   /* selected link */
   a:active {
-    color: rgb(241, 210, 65);
+    color: rgb(255, 255, 255);
   }
 
   .purchase0 {
@@ -163,6 +163,15 @@
   .payButton-hover:hover{
     opacity: 1;
   }
+
+  .blurb {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: rgb(241, 210, 65);
+
+  }
     .lou {
       justify-content: center;
       padding: 10px;
@@ -174,8 +183,8 @@
     .maier {
       padding: 10px;
       background: black;
-      max-width: 345px;
-      max-height: 325px;
+      max-width: 405px;
+      max-height: 695px;
 
     }
 
@@ -206,7 +215,7 @@
       background: black;
       max-width: 305px;
       max-height: 305px;
-      color: rgb(241, 210, 65);
+      color: rgb(255, 255, 255);
     }
 
     .design {
@@ -214,7 +223,7 @@
       background: black;
       max-width: 345px;
       max-height: 345px;
-      color: rgb(241, 82, 220);
+      color: rgb(255, 255, 255);
       margin-bottom: 30px;
     }
 
