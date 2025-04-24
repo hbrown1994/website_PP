@@ -88,11 +88,30 @@
     max-height: 270px;
   }
 
+  .purchase1 {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: black;
+    max-width: 700px;
+    max-height: 700px;
+  }
+
+
 
   .additionalText{
     text-align: center;
     justify-content: center;
     padding-top: 10px;
+  }
+
+  .cdPic {
+    margin-top: 20px;
+    max-width: 300px;
+    max-height: 300px;
+    transition: 0.5s;
   }
 
   .payButton {
